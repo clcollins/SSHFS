@@ -38,12 +38,12 @@ Let's take a look at SSHFS in action.  First, create (or select an existing) dir
 ```
 _Exciting Pictures directory I have, huh?_
 
-
 Fun fact, sshfs doesn't expand `~` on the remote machine to the user's homedir.
 
 The mounted filesystems can be access and used the same way a local filesystem is, both from the commandline or using other tools:
 
 ![Gnome file browser showing an SSHFS mounted filesystem](images/sshfs_example.png)
+
 _Not any more exciting than before, but it does show off my choice of passtimes.  Dwarf Fortress, anyone?_
 
 When you're done with the remote filesystem, it can be unmounted with the `fusermount` command:
